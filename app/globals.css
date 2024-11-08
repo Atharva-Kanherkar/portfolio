@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
  
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #0A0A0A;  /* Remove quotes around the hex color */
+}
