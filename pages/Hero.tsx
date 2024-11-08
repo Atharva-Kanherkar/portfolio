@@ -19,12 +19,10 @@ export function Hero() {
       </div>
       
   
-      <h1 className="absolute bottom-16 left-7 text-white text-lg font-semibold z-20">
-  About
-</h1>
+    
 
+      <BackgroundBeams   />
 
-      <BackgroundBeams />
     </div>
   );
 }

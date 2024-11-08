@@ -1,17 +1,14 @@
-import { AuroraBackground } from "@/components/ui/aurora-background";
-import { BackgroundBeams } from "@/components/ui/background-beams";
+ "use client";
+import { About } from "@/pages/About";
+import { FloatingDockDemo } from "@/pages/FloatingDesk";
 import { Hero } from "@/pages/Hero";
-import PageLoader from "next/dist/client/page-loader";
 
- export default function Home() {
+export default function Home() {
   return (
-    <div>
- <Hero/>
-      
-         <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-[-1]" />
+    <div  > {/* Adds padding to the bottom to avoid overlap */}
+      <Hero />
+      <About />
+      <FloatingDockDemo />
     </div>
- 
-  
-  ); 
+  );
 }
- 
