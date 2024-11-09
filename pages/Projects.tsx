@@ -39,7 +39,7 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect"
        <div>
        <TypewriterEffect words={words} className="text-2xl font-bold text-center mb-8" />
        </div>
-      <div className="flex justify-center gap-6">
+      <div className="flex justify-center gap-4">
         <UptimeMonitor />
         <SecondProject/>
         <ThirdProject/>
