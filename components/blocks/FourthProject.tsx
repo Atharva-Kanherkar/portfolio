@@ -89,7 +89,8 @@ const Skeleton = () => {
   ];
 
   useEffect(() => {
-   // @ts-expect-error
+  // @ts-expect-error: Allowing assignment of a string to a number for testing purposes
+
     animate(sequence, {
     
      

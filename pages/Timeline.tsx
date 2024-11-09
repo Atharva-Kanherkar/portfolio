@@ -11,7 +11,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-xl font-normal mb-8">
-             Got into the Linux Foundation's Open Source Mentorship Program!
+             Got into the Linux Foundations Open Source Mentorship Program!
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
