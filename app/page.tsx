@@ -1,9 +1,13 @@
  "use client";
+import CardDemo from "@/components/blocks/cards-demo-3";
 import { About } from "@/pages/About";
 import { BentoGridThirdDemo } from "@/pages/BentoGrid";
 import { FloatingDockDemo } from "@/pages/FloatingDesk";
+import { Footer } from "@/pages/Footer";
  
 import { Hero } from "@/pages/Hero";
+import { Projects } from "@/pages/Projects";
+ 
 import { TimelineDemo } from "@/pages/Timeline";
 export default function Home() {
   return (
@@ -28,7 +32,13 @@ export default function Home() {
       <div className="mb-60"> 
         <TimelineDemo />
       </div>
-  
+       
+      <div className="mb-60"> 
+         <Projects/>
+      </div>
+      <div className="mb-60"> 
+        <Footer/>
+      </div>
     </div>
   );
 }

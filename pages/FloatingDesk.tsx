@@ -7,6 +7,7 @@ import {
   IconHome,
   IconNewSection,
   IconTerminal2,
+  IconBrandLinkedin
 } from "@tabler/icons-react";
 import Image from "next/image";
 
@@ -21,18 +22,18 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Products",
+      title: "LinkedIn",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "www.linkedin.com/in/atharva-kanherkar-4370a3257",
     },
     {
-      title: "Components",
+      title: "Resume",
       icon: (
         <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://drive.google.com/file/d/1KVDeztZrS80IcTJD8ihefi9J1ioG2G9Q/view?usp=sharing",
     },
  
    

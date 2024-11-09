@@ -2,13 +2,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
  
-import {
-  IconBoxAlignRightFilled,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
@@ -23,7 +16,7 @@ export function BentoGridThirdDemo() {
           description={item.description}
           header={item.header}
           className={cn("[&>p:text-lg]", item.className)}
-          icon={item.icon}
+      
         />
       ))}
     </BentoGrid>
@@ -138,40 +131,45 @@ const SkeletonTwo = () => {
       </div>
     );
   };
-  
-  
-  
-const SkeletonThree = () => {
-  const variants = {
-    initial: {
-      backgroundPosition: "0 50%",
-    },
-    animate: {
-      backgroundPosition: ["0, 50%", "100% 50%", "0 50%"],
-    },
+  const SkeletonThree = () => {
+    const variants = {
+      initial: {
+        backgroundPosition: "0% 50%",
+      },
+      animate: {
+        backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
+      },
+    };
+    return (
+      <motion.div
+        initial="initial"
+        animate="animate"
+        variants={variants}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          repeatType: "reverse",
+        }}
+        className="flex flex-1 w-full h-full min-h-[6rem] rounded-lg bg-dot-black/[0.2] flex-col space-y-2 relative overflow-hidden"
+        style={{
+          background:
+            "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+          backgroundSize: "400% 400%",
+        }}
+      >
+        <motion.div className="h-full w-full rounded-lg"></motion.div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <p className="text-white text-2xl font-bold text-center px-4">
+            Want to work together? Or participate in a hackathon?
+          </p>
+        </div>
+      </motion.div>
+    );
   };
-  return (
-    <motion.div
-      initial="initial"
-      animate="animate"
-      variants={variants}
-      transition={{
-        duration: 5,
-        repeat: Infinity,
-        repeatType: "reverse",
-      }}
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
-      style={{
-        background:
-          "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
-        backgroundSize: "400% 400%",
-      }}
-    >
-      <motion.div className="h-full w-full rounded-lg"></motion.div>
-    </motion.div>
-  );
-};
-const SkeletonFour = () => {
+  
+  
+  
+ const SkeletonFour = () => {
   const first = {
     initial: {
       x: 20,
@@ -274,16 +272,18 @@ const items = [
     
   },
   {
-    title: "Contextual Suggestions",
-    description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
+    title: (
+      <span
+        onClick={() => navigator.clipboard.writeText("atharvakanherkar25@gmail.com")}
+        className="cursor-pointer text-blue-500 hover:underline"
+      >
+        Copy my email!
       </span>
     ),
     header: <SkeletonThree />,
     className: "md:col-span-1",
- 
-  },
+  }
+,  
   {
     title: "My tech arsenal",
     description: (
