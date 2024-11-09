@@ -20,11 +20,11 @@ export function TimelineDemo() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
- <p className="text-white text-lg leading-relaxed space-y-2  font-sans">
+ {/* <p className="text-white text-lg leading-relaxed space-y-2  font-sans">
   <span className="block">• Selected for the highly competitive LFX Mentorship Program, with an acceptance rate of only 0.5%.</span>
   <span className="block">• Enhanced the front-end using React/Node.js and strengthened the secure back-end with C/metal C.</span>
   <span className="block">• Also worked on improving the server setup and documentation.</span>
-</p>
+</p> */}
 
 
 
@@ -48,11 +48,11 @@ export function TimelineDemo() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-    <p className="text-white text-lg leading-relaxed space-y-4">
+    {/* <p className="text-white text-lg leading-relaxed space-y-4">
   <div>• Developed 6,500+ lines of code across 8 PRs for Talawa using TypeScript, GraphQL, NodeJS, and React.</div>
   <div>• Added Event Agendas feature with full CRUD functionality and 100% test coverage using vitest.</div>
   <div>• Collaborated with 20+ team members, participated in meetings, and reviewed PRs.</div>
-</p>
+</p> */}
 
           </div>
          
@@ -76,11 +76,11 @@ export function TimelineDemo() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-       <p className="text-white text-lg leading-relaxed space-y-4">
+       {/* <p className="text-white text-lg leading-relaxed space-y-4">
   <div>• Completed the CSES problem set, covering a wide range of algorithms and data structures.</div>
   <div>• Gained expertise in various data structures and algorithms.</div>
   <div>• Explored and implemented famous algorithms to improve problem-solving skills.</div>
-</p>
+</p> */}
 
           </div>
         </div>

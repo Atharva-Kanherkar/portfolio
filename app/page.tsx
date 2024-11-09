@@ -1,25 +1,34 @@
  "use client";
-
 import { About } from "@/pages/About";
+import { BentoGridThirdDemo } from "@/pages/BentoGrid";
 import { FloatingDockDemo } from "@/pages/FloatingDesk";
+ 
 import { Hero } from "@/pages/Hero";
 import { TimelineDemo } from "@/pages/Timeline";
 export default function Home() {
   return (
     <div>
-      {/* Wrapping each component in a div with margin bottom for spacing */}
       <div className="mb-10">
         <Hero />
       </div>
       <div className="mb-10">
         <About />
       </div>
-      <div className="mb-40"> {/* Increased the bottom margin to push FloatingDockDemo down */}
+      <div className="mb-40"> 
         <FloatingDockDemo />
       </div>
-      <div className="mb-40"> {/* Increased the bottom margin to push TimelineDemo down */}
+
+      {/* Spacer div to add a large vertical gap */}
+      <div className="h-72"></div>
+
+      <div className="mb-40"> 
+        <BentoGridThirdDemo />
+      </div>
+
+      <div className="mb-60"> 
         <TimelineDemo />
       </div>
+  
     </div>
   );
 }
