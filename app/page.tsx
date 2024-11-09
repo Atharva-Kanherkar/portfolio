@@ -1,5 +1,5 @@
  "use client";
-import CardDemo from "@/components/blocks/cards-demo-3";
+ 
 import { About } from "@/pages/About";
 import { BentoGridThirdDemo } from "@/pages/BentoGrid";
 import { FloatingDockDemo } from "@/pages/FloatingDesk";

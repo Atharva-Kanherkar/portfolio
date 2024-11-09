@@ -1,3 +1,5 @@
+"use client";
+
 import UptimeMonitor from "@/components/blocks/cards-demo-3"
 import FourthProject from "@/components/blocks/FourthProject"
 import SecondProject from "@/components/blocks/secondProject"

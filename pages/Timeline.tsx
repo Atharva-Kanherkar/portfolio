@@ -1,7 +1,8 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
-import LFXMail from '../assets/LFX_mail.png';
+ 
 
 export function TimelineDemo() {
   const data = [

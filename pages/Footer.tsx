@@ -1,3 +1,4 @@
+"use client";
 import { SparklesCore } from "@/components/ui/sparkles";
 import React from "react";
 
