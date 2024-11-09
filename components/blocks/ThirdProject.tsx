@@ -1,10 +1,10 @@
-"use client";
+ "use client";
 import { animate, motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useEffect,  } from "react";
 import { cn } from "@/lib/utils";
 import { FiLink } from 'react-icons/fi';
 
-import { SiTypescript, SiGraphql, SiDocker, SiGrafana, SiPrisma, SiPrometheus, SiReact, SiGithub } from 'react-icons/si';
+import { SiTypescript, SiGraphql, SiDocker,  SiPrisma,  SiReact, SiGithub } from 'react-icons/si';
 
 export default function ThirdProject() {
   return (
@@ -89,7 +89,7 @@ const Skeleton = () => {
   ];
 
   useEffect(() => {
-    // @ts-ignore
+   // @ts-expect-error
     animate(sequence, {
     
      
