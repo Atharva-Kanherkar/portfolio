@@ -53,3 +53,5 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect"
    )
  }
  
+
+ export default  Projects;

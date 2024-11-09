@@ -61,3 +61,5 @@ export function FloatingDockDemo() {
   </div>
   );
 }
+ 
+export default FloatingDockDemo;

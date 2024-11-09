@@ -298,3 +298,5 @@ const items = [
 
  
 ];
+
+export default BentoGridThirdDemo;
